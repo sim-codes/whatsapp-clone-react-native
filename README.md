@@ -7,7 +7,7 @@ A WhatsApp clone built using React Native and Expo.
 This project aims to replicate the user interface of the popular messaging application WhatsApp using React Native and Expo.
 
 ## Preview
-![](https://youtube.com/shorts/wAy33zS5B14)
+https://youtube.com/shorts/wAy33zS5B14
 
 ## Technologies Used
 

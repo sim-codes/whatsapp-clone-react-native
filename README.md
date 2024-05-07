@@ -1,3 +1,5 @@
+
+https://github.com/sim-codes/whatsapp-clone-react-native/assets/100477981/a55063e6-3b1b-4462-b01d-a41a4cd6b728
 # WhatsApp Clone
 
 A WhatsApp clone built using React Native and Expo.
@@ -8,7 +10,7 @@ This project aims to replicate the user interface of the popular messaging appli
 
 ## Preview
 
-Uploading whatsapp-clone.mp4…
+
 https://youtube.com/shorts/wAy33zS5B14
 
 ## Technologies Used

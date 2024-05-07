@@ -3,6 +3,7 @@
     "name": "WhatsApp",
     "slug": "WhatsApp",
     "version": "1.0.0",
+    "owner": "sim_codes",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",

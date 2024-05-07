@@ -5,12 +5,12 @@ import {
   View,
   TextInput
 } from 'react-native';
-import UpdatesHeader from './updatesHeader';
-import Footer from './footer';
-import Status from './status';
+import UpdatesHeader from './UpdatesHeader';
+import Footer from '../Footer';
+import Status from './Status';
 import { MaterialIcons, FontAwesome } from '@expo/vector-icons';
-import Channels from './channel';
-import FindChannels from './findChannels';
+import Channels from './Channel';
+import FindChannels from './FindChannels';
 
 export default function Updates(){
 

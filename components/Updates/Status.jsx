@@ -8,7 +8,7 @@ import {
   Image,
   ScrollView
 } from 'react-native';
-import { Users } from '../lib/data';
+import { Users } from '../../lib/data';
 
 export default function Status() {
 
@@ -34,7 +34,7 @@ export default function Status() {
         showsHorizontalScrollIndicator={false}>
             <View style={styles.my}>
                 <Image style={styles.image}
-                source={require('../assets/images/samuel.jpg')}
+                source={require('../../assets/images/samuel.jpg')}
                 borderRadius={50} resizeMode='cover'/>
                 <Text style={styles.name}>My status</Text>
             </View>

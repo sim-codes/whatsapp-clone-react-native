@@ -5,7 +5,7 @@ import {
     Image,
     StatusBar
 } from 'react-native';
-import CommunitiesHeader from './communitiesHeader';
+import CommunitiesHeader from './CommunitiesHeader';
 import { Entypo } from '@expo/vector-icons';
 
 export default function Communities() {
@@ -15,7 +15,7 @@ export default function Communities() {
 
         <View style={styles.newCtn}>
           <View>
-            <Image style={styles.image} source={require('../assets/images/community.png')} />
+            <Image style={styles.image} source={require('../../assets/images/community.png')} />
             
             <View style={styles.plus}>
               <Entypo name="plus" size={24} color="#011513" />

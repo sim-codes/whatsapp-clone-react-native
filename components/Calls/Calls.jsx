@@ -7,9 +7,9 @@ import {
     TouchableOpacity,
     FlatList
 } from 'react-native';
-import CallsHeader from './callsHeader';
+import CallsHeader from './CallsHeader';
 import { Ionicons, Feather, MaterialCommunityIcons, MaterialIcons } from '@expo/vector-icons';
-import { Users, CallHistory } from '../lib/data';
+import { Users, CallHistory } from '../../lib/data';
 
 
 const Item = ({name, image, datetime, type, status, missed}) => (

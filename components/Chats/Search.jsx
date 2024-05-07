@@ -11,7 +11,7 @@ export default function Search() {
 
   return (
     <View style={styles.searchCtn}>
-        <Image style={{width: 30, height: 30, marginLeft: 7,}} source={require('../assets/images/ai.png')}/>
+        <Image style={{width: 30, height: 30, marginLeft: 7,}} source={require('../../assets/images/ai.png')}/>
         <TextInput style={styles.searchInp} 
         placeholder='Ask Meta Ai or Search' placeholderTextColor='#b4c7c5' />
     </View>

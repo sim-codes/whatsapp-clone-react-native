@@ -8,7 +8,7 @@ import {
   Image,
   ScrollView
 } from 'react-native';
-import { ChannelData } from '../lib/data';
+import { ChannelData } from '../../lib/data';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 export default function FindChannels() {

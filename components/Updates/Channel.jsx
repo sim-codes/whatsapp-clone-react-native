@@ -8,7 +8,7 @@ import {
   Image,
   ScrollView
 } from 'react-native';
-import { ChannelFollowed } from '../lib/data';
+import { ChannelFollowed } from '../../lib/data';
 import { Entypo } from '@expo/vector-icons';
 
 export default function Channels() {

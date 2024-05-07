@@ -7,10 +7,9 @@ import {
   Image,
   ScrollView
 } from 'react-native';
-import { Users } from '../lib/data';
-import Search from './search';
-import Header from './header';
-import Footer from './footer';
+import { Users } from '../../lib/data';
+import Search from './Search';
+import Header from './Header';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 export default function Chat(){
@@ -56,7 +55,7 @@ export default function Chat(){
         <View style={styles.newUpdate}>
             <View style={styles.pen}>
               {/* <FontAwesome name="pencil" size={24} color="white" /> */}
-              <Image style={{width: 30, height: 30}} source={require('../assets/images/ai.png')}/>
+              <Image style={{width: 30, height: 30}} source={require('../../assets/images/ai.png')}/>
             </View>
             <View style={styles.msg}>
               <MaterialCommunityIcons name="message-plus" size={28} color="#011513" />

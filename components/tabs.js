@@ -11,15 +11,12 @@ const Tab = createMaterialTopTabNavigator();
 
 export default function MyTabs() {
   return (
-    // <Tab.Navigator tabBar={props => <MyTabBar {...props} />}
     <Tab.Navigator
       initialRouteName="Chats"
       tabBarPosition="bottom"
       screenOptions={{
-        // tabBarActiveTintColor: '#e91e63',
         tabBarLabelStyle: styles.title,
         tabBarStyle: styles.tab,
-        // tabBarGap: 10,
       }}
     >
       <Tab.Screen
@@ -86,7 +83,6 @@ const styles = StyleSheet.create({
         height: 30,
     },
     title: {
-        // top: 7,
         textAlign: 'center',
         fontSize: 12,
         fontWeight: 'bold',
